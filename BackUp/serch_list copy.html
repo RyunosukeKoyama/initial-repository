@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link href="./css/reset.css" rel="stylesheet" type="text/css">
+    <link href="./css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div class="wrapper-1">
+        <header class="title">
+            <h1><a href="serch_list.html">顧客管理システム</a></h1>
+        </header>
+        <main>
+            <div class="form_wrap">
+                <div class="content-box-1">
+                    <div class="go_resistration">
+                        <button onclick="location.href='./resistration.html'">登録</button>
+                    </div>
+                </div>
+                <div class="content-box-2">
+                    <form>
+                        <div class="serch-form__label">
+                            <p>顧客名</p>
+                            <input type="text" name="name">
+                        </div>
+                        <div class="serch-form__label">
+                            <p>顧客名（カナ）</p>
+                            <input type="text" name="name">
+                        </div>
+                        <div class="serch-form__label">
+                            <p>性別</p>
+                            <input type="radio" name="gender" value="male">全て
+                            <input type="radio" name="gender" value="male">男性
+                            <input type="radio" name="gender" value="female">女性
+                        </div>
+                        <div class="serch-form__label">
+                            <p>生年月日</p>
+                            <input type="date" name="dateofbirth-p2">
+                            <span>～</span>
+                            <input type="date" name="dateofbirth-p2">
+                        </div>
+                        <div class="serch-form__label">
+                            <p>所属会社</p>
+                            <select>
+                                <option value="">会社を選択</option>
+                                <option value="株式会社A">株式会社A</option>
+                                <option value="株式会社B">株式会社B</option>
+                                <option value="株式会社C">株式会社C</option>
+                            </select>
+                        </div>
+                        <div class="serch-form__submit">
+                            <input type='button' value='検索'>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="table-box-area">
+                <table class="table">
+                    <tr>
+                        <th>顧客ID</th>
+                        <th>顧客名（カナ）</th>
+                        <th>メールアドレス</th>
+                        <th>電話番号</th>
+                        <th>所属会社</th>
+                        <th>新規日時/最終更新日時</th>
+                        <th>編集ボタン</th>
+                        <th>削除ボタン</th>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type='button' value='編集'></td>
+                        <td><input type='button' value='削除'></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type='button' value='編集'></td>
+                        <td><input type='button' value='削除'></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type='button' value='編集'></td>
+                        <td><input type='button' value='削除'></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type='button' value='編集'></td>
+                        <td><input type='button' value='削除'></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type='button' value='編集'></td>
+                        <td><input type='button' value='削除'></td>
+                    </tr>
+                </table>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>
